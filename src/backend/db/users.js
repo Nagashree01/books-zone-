@@ -15,5 +15,18 @@ export const users = [
     password: "adarshbalika",
     createdAt: formatDate(),
     updatedAt: formatDate(),
+    address: [
+      {
+        _id: uuid(),
+        name: " John",
+        street: "#204",
+        area: "R R Nagar",
+        city: "Chennai",
+        state: "Tamil Nadu",
+        country: "India",
+        zipcode: 300096,
+        phoneNo: 9120009876,
+      },
+    ],
   },
 ];

@@ -1,0 +1,11 @@
+.login-to-continue-link-container{
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-to-continue-link{
+    font-size: 1rem;
+    font-weight: 600;
+  }

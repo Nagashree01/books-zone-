@@ -1,0 +1,49 @@
+.wishlist-card{
+    padding: 10px;
+    border:1px solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    gap:0.5rem;
+    width: 400px;
+    height: 35vh;
+    
+}
+.wishlist-card-img{
+    width:auto;
+    height: 100%;
+}
+.wishlist-card-btns {
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+
+.wishlist-card-btns button{
+    width: 100%;
+    border: 2px solid;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    font-weight: 600;
+}
+.wishlist-card-btns button:hover{
+    color: white;
+    background-color: black;
+}
+.wishlist-card-book-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.wishlist-card-book-details .book-title{
+font-size: 1.5rem;
+}
+.wishlist-card-book-details .book-author{
+    margin:3px 0;
+}
+.wishlist-card-book-details .book-category{
+    margin:5px 0;
+}

@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    border-bottom: 2px solid;
+    overflow-x :hidden;
+}
+
+.search-input{
+    height: 1rem;
+    padding:5px;
+    font-size: 1rem;
+}
+
+.header-navigation-icons{
+    display: flex;
+    font-size: 2rem;
+    gap:1rem;
+    align-items: center;
+}
+
+.wishlist-icon,.cart-icon{
+    position: relative;
+}
+.wishlist-books-count,.cart-books-count{
+    position: absolute;
+    width:15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -3px;
+    right: -5px;;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 1rem;
+    color:var(--white-color);
+    background-color: var(--black-color);
+}
+
+@media screen and (max-width:450px) {
+    .header{
+        width:fit-content;
+        padding: 0;
+        
+    }
+    .header-navigation-icons{
+        flex-wrap: wrap;
+    }
+}

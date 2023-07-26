@@ -1,0 +1,30 @@
+.footer{
+    display: flex;
+    margin: 0;
+    gap:3rem;
+    align-items: center;
+    background-color: black;
+    color: white;
+    
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+   
+}
+
+
+.footer *{
+    padding: 5px;
+}
+
+.about-link{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+@media screen and (max-width:420px) {
+    .footer{
+        width: fit-content;
+        gap:1.5rem;
+    }
+}

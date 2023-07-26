@@ -1,0 +1,35 @@
+.filter-section{
+    grid-area: filters;
+    width: 180px;
+    position: fixed;
+    padding-left: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+}
+
+.filter-head{
+    display: flex;
+    justify-content: space-between;
+    gap:1rem;
+    align-items: center;
+}
+
+.filter-range-price-values {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.clear-btn{
+    border: 1px solid;
+    padding: 5px;
+    background-color: white;
+    color: black;
+    height: fit-content;
+    font-size: 1rem;
+
+}
+.category-label,.rating-label{
+    display: inline;
+}

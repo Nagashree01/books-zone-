@@ -1,0 +1,14 @@
+.category-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    padding: 5px;
+}
+.category-name{
+    font-size: 1.3rem;
+}
+
+.category-card:hover{
+    cursor: pointer;
+}
