@@ -1,5 +1,5 @@
 .bookImg{
-    width:280px ;
+    width:100% ;
     height:100%;
 }
 .bookImg-container{
@@ -56,4 +56,12 @@
 .add-to-wishlist-btn:hover,.add-to-cart-btn:hover{
     color: white;
     background-color: black;
+}
+
+
+@media screen and (max-width:720px) {
+    .book-card{
+        width:200px;
+    }
+    
 }

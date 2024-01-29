@@ -11,7 +11,9 @@ export const Products = () => {
       <main className="products-page-main-section">
         <Filter />
         <section className="products-section">
-          <h2>Showing {filterByPriceRange.length} Products</h2>
+          <h2 className="total-products-text">
+            Showing {filterByPriceRange.length} Products
+          </h2>
           <div className="products">
             {" "}
             {filterByPriceRange.map((book) => {
